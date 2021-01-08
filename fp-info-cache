@@ -1,4 +1,4 @@
-20929323362260
+22539624961931
 halfboard
 3_Pin_Jumper
 
@@ -35,6 +35,13 @@ Kailh-PG1350-1u-reversible-flip
 3
 2
 halfboard
+MX-ALPs-PG1350-LED-FLIP
+
+
+0
+11
+4
+halfboard
 R_0805
 SMT, 2012, 0805
 SMT, 2012, 0805
@@ -53,8 +60,8 @@ SW_PG1350_reversible
 Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
 kailh,choc
 0
-3
-2
+7
+4
 halfboard
 SW_PG1350_reversible_noLED
 Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
