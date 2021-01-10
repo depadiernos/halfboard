@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.8-0-10_14)"
+      "Version":     "5.1.9"
     },
-    "CreationDate":  "2021-01-07T13:30:25-06:00"
+    "CreationDate":  "2021-01-09T20:22:18-06:00"
   },
   "GeneralSpecs":
   {
@@ -19,7 +19,7 @@
     },
     "Size":
     {
-      "X": 240.130,
+      "X": 117.448,
       "Y": 87.943
     },
     "LayerNumber": 2,
