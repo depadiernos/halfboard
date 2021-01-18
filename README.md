@@ -1,7 +1,7 @@
 # Halfboard
 
-![](https://github.com/depadiernos/halfboard/blob/main/halfboard.png =250x)
+![](https://github.com/depadiernos/halfboard/blob/main/halfboard.png | width=250)
 
-![](https://raw.githubusercontent.com/depadiernos/halfboard/main/halfboard-mockup.jpg =250x)
+![](https://raw.githubusercontent.com/depadiernos/halfboard/main/halfboard-mockup.jpg | width=250)
 
-![](https://raw.githubusercontent.com/depadiernos/halfboard/main/halfboard-layout.png =250x)
+![](https://raw.githubusercontent.com/depadiernos/halfboard/main/halfboard-layout.png | width=250)
