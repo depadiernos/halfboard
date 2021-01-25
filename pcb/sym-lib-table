@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name sw_withled)(type Legacy)(uri /home/dennis/Projects/Universal-Switch-Footprint/sw_withled.lib)(options "")(descr ""))
+  (lib (name keebio)(type Legacy)(uri /home/dennis/Projects/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name halfboard-rescue)(type Legacy)(uri ${KIPRJMOD}/halfboard-rescue.lib)(options "")(descr ""))
+)
