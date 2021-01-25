@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "REVIUNG41"
+Title "HALFBOARD"
 Date "2020-01-06"
 Rev "1.2"
 Comp ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keebio:ProMicro U1
+L halfboard-rescue:ProMicro-keebio U1
 U 1 1 5DCBB133
 P 1800 2000
 F 0 "U1" H 1800 3037 60  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 1900 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L halfboard-rescue:GND-power #PWR03
 U 1 1 5DCBC44C
 P 2500 1550
 F 0 "#PWR03" H 2500 1300 50  0001 C CNN
@@ -35,21 +35,10 @@ F 3 "" H 2500 1550 50  0001 C CNN
 	1    2500 1550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VCC #PWR05
-U 1 1 5DCBC5E3
-P 2500 1750
-F 0 "#PWR05" H 2500 1600 50  0001 C CNN
-F 1 "VCC" V 2517 1878 50  0000 L CNN
-F 2 "" H 2500 1750 50  0001 C CNN
-F 3 "" H 2500 1750 50  0001 C CNN
-	1    2500 1750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1100 1650 1050 1650
 $Comp
-L power:GND #PWR04
+L halfboard-rescue:GND-power #PWR04
 U 1 1 5DCBCA52
 P 1000 1650
 F 0 "#PWR04" H 1000 1400 50  0001 C CNN
@@ -67,7 +56,7 @@ Connection ~ 1050 1650
 Wire Wire Line
 	1050 1650 1000 1650
 $Comp
-L Diode:1N4148W D4
+L halfboard-rescue:1N4148W-Diode D4
 U 1 1 5DCC1C97
 P 6900 1500
 F 0 "D4" V 6946 1420 50  0000 R CNN
@@ -78,7 +67,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW4
+L halfboard-rescue:SWITCH-sw_withled SW4
 U 1 1 5DCC1C91
 P 6600 1350
 F 0 "SW4" H 6600 1605 50  0000 C CNN
@@ -89,7 +78,7 @@ F 3 "" H 6600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D3
+L halfboard-rescue:1N4148W-Diode D3
 U 1 1 5DCC1C8B
 P 5900 1500
 F 0 "D3" V 5946 1420 50  0000 R CNN
@@ -100,7 +89,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW3
+L halfboard-rescue:SWITCH-sw_withled SW3
 U 1 1 5DCC1C85
 P 5600 1350
 F 0 "SW3" H 5600 1605 50  0000 C CNN
@@ -111,7 +100,7 @@ F 3 "" H 5600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D2
+L halfboard-rescue:1N4148W-Diode D2
 U 1 1 5DCBF1A2
 P 4900 1500
 F 0 "D2" V 4946 1420 50  0000 R CNN
@@ -122,7 +111,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW2
+L halfboard-rescue:SWITCH-sw_withled SW2
 U 1 1 5DCBF19C
 P 4600 1350
 F 0 "SW2" H 4600 1605 50  0000 C CNN
@@ -133,7 +122,7 @@ F 3 "" H 4600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D1
+L halfboard-rescue:1N4148W-Diode D1
 U 1 1 5DCBD469
 P 3900 1500
 F 0 "D1" V 3946 1420 50  0000 R CNN
@@ -144,7 +133,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW1
+L halfboard-rescue:SWITCH-sw_withled SW1
 U 1 1 5DCBD08B
 P 3600 1350
 F 0 "SW1" H 3600 1605 50  0000 C CNN
@@ -155,7 +144,7 @@ F 3 "" H 3600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_withled:SWITCH SW5
+L halfboard-rescue:SWITCH-sw_withled SW5
 U 1 1 5DCC4CE7
 P 7600 1350
 F 0 "SW5" H 7600 1605 50  0000 C CNN
@@ -166,7 +155,7 @@ F 3 "" H 7600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D5
+L halfboard-rescue:1N4148W-Diode D5
 U 1 1 5DCC4CED
 P 7900 1500
 F 0 "D5" V 7946 1420 50  0000 R CNN
@@ -177,7 +166,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW6
+L halfboard-rescue:SWITCH-sw_withled SW6
 U 1 1 5DCC4CF3
 P 8600 1350
 F 0 "SW6" H 8600 1605 50  0000 C CNN
@@ -188,7 +177,7 @@ F 3 "" H 8600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D6
+L halfboard-rescue:1N4148W-Diode D6
 U 1 1 5DCC4CF9
 P 8900 1500
 F 0 "D6" V 8946 1420 50  0000 R CNN
@@ -199,7 +188,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D10
+L halfboard-rescue:1N4148W-Diode D10
 U 1 1 5DCCCAB6
 P 6900 2150
 F 0 "D10" V 6946 2070 50  0000 R CNN
@@ -210,7 +199,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW10
+L halfboard-rescue:SWITCH-sw_withled SW10
 U 1 1 5DCCCABC
 P 6600 2000
 F 0 "SW10" H 6600 2255 50  0000 C CNN
@@ -221,7 +210,7 @@ F 3 "" H 6600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D9
+L halfboard-rescue:1N4148W-Diode D9
 U 1 1 5DCCCAC2
 P 5900 2150
 F 0 "D9" V 5946 2070 50  0000 R CNN
@@ -232,7 +221,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW9
+L halfboard-rescue:SWITCH-sw_withled SW9
 U 1 1 5DCCCAC8
 P 5600 2000
 F 0 "SW9" H 5600 2255 50  0000 C CNN
@@ -243,7 +232,7 @@ F 3 "" H 5600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D8
+L halfboard-rescue:1N4148W-Diode D8
 U 1 1 5DCCCACE
 P 4900 2150
 F 0 "D8" V 4946 2070 50  0000 R CNN
@@ -254,7 +243,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW8
+L halfboard-rescue:SWITCH-sw_withled SW8
 U 1 1 5DCCCAD4
 P 4600 2000
 F 0 "SW8" H 4600 2255 50  0000 C CNN
@@ -265,7 +254,7 @@ F 3 "" H 4600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D7
+L halfboard-rescue:1N4148W-Diode D7
 U 1 1 5DCCCADA
 P 3900 2150
 F 0 "D7" V 3946 2070 50  0000 R CNN
@@ -276,7 +265,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW7
+L halfboard-rescue:SWITCH-sw_withled SW7
 U 1 1 5DCCCAE0
 P 3600 2000
 F 0 "SW7" H 3600 2255 50  0000 C CNN
@@ -287,7 +276,7 @@ F 3 "" H 3600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_withled:SWITCH SW11
+L halfboard-rescue:SWITCH-sw_withled SW11
 U 1 1 5DCCCAE6
 P 7600 2000
 F 0 "SW11" H 7600 2255 50  0000 C CNN
@@ -298,7 +287,7 @@ F 3 "" H 7600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D11
+L halfboard-rescue:1N4148W-Diode D11
 U 1 1 5DCCCAEC
 P 7900 2150
 F 0 "D11" V 7946 2070 50  0000 R CNN
@@ -309,7 +298,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW12
+L halfboard-rescue:SWITCH-sw_withled SW12
 U 1 1 5DCCCAF2
 P 8600 2000
 F 0 "SW12" H 8600 2255 50  0000 C CNN
@@ -320,7 +309,7 @@ F 3 "" H 8600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D12
+L halfboard-rescue:1N4148W-Diode D12
 U 1 1 5DCCCAF8
 P 8900 2150
 F 0 "D12" V 8946 2070 50  0000 R CNN
@@ -331,7 +320,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D16
+L halfboard-rescue:1N4148W-Diode D16
 U 1 1 5DCD2B3B
 P 6900 2800
 F 0 "D16" V 6946 2720 50  0000 R CNN
@@ -342,7 +331,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW16
+L halfboard-rescue:SWITCH-sw_withled SW16
 U 1 1 5DCD2B41
 P 6600 2650
 F 0 "SW16" H 6600 2905 50  0000 C CNN
@@ -353,7 +342,7 @@ F 3 "" H 6600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D15
+L halfboard-rescue:1N4148W-Diode D15
 U 1 1 5DCD2B47
 P 5900 2800
 F 0 "D15" V 5946 2720 50  0000 R CNN
@@ -364,7 +353,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW15
+L halfboard-rescue:SWITCH-sw_withled SW15
 U 1 1 5DCD2B4D
 P 5600 2650
 F 0 "SW15" H 5600 2905 50  0000 C CNN
@@ -375,7 +364,7 @@ F 3 "" H 5600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D14
+L halfboard-rescue:1N4148W-Diode D14
 U 1 1 5DCD2B53
 P 4900 2800
 F 0 "D14" V 4946 2720 50  0000 R CNN
@@ -386,7 +375,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW14
+L halfboard-rescue:SWITCH-sw_withled SW14
 U 1 1 5DCD2B59
 P 4600 2650
 F 0 "SW14" H 4600 2905 50  0000 C CNN
@@ -397,7 +386,7 @@ F 3 "" H 4600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D13
+L halfboard-rescue:1N4148W-Diode D13
 U 1 1 5DCD2B5F
 P 3900 2800
 F 0 "D13" V 3946 2720 50  0000 R CNN
@@ -408,7 +397,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW13
+L halfboard-rescue:SWITCH-sw_withled SW13
 U 1 1 5DCD2B65
 P 3600 2650
 F 0 "SW13" H 3600 2905 50  0000 C CNN
@@ -419,7 +408,7 @@ F 3 "" H 3600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_withled:SWITCH SW17
+L halfboard-rescue:SWITCH-sw_withled SW17
 U 1 1 5DCD2B6B
 P 7600 2650
 F 0 "SW17" H 7600 2905 50  0000 C CNN
@@ -430,7 +419,7 @@ F 3 "" H 7600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D17
+L halfboard-rescue:1N4148W-Diode D17
 U 1 1 5DCD2B71
 P 7900 2800
 F 0 "D17" V 7946 2720 50  0000 R CNN
@@ -441,7 +430,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW18
+L halfboard-rescue:SWITCH-sw_withled SW18
 U 1 1 5DCD2B77
 P 8600 2650
 F 0 "SW18" H 8600 2905 50  0000 C CNN
@@ -452,7 +441,7 @@ F 3 "" H 8600 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D18
+L halfboard-rescue:1N4148W-Diode D18
 U 1 1 5DCD2B7D
 P 8900 2800
 F 0 "D18" V 8946 2720 50  0000 R CNN
@@ -463,7 +452,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8900 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148W D22
+L halfboard-rescue:1N4148W-Diode D22
 U 1 1 5DCD8200
 P 6900 3450
 F 0 "D22" V 6946 3370 50  0000 R CNN
@@ -474,7 +463,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6900 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW22
+L halfboard-rescue:SWITCH-sw_withled SW22
 U 1 1 5DCD8206
 P 6600 3300
 F 0 "SW22" H 6600 3555 50  0000 C CNN
@@ -485,7 +474,7 @@ F 3 "" H 6600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D21
+L halfboard-rescue:1N4148W-Diode D21
 U 1 1 5DCD820C
 P 5900 3450
 F 0 "D21" V 5946 3370 50  0000 R CNN
@@ -496,7 +485,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 5900 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW21
+L halfboard-rescue:SWITCH-sw_withled SW21
 U 1 1 5DCD8212
 P 5600 3300
 F 0 "SW21" H 5600 3555 50  0000 C CNN
@@ -507,7 +496,7 @@ F 3 "" H 5600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D20
+L halfboard-rescue:1N4148W-Diode D20
 U 1 1 5DCD8218
 P 4900 3450
 F 0 "D20" V 4946 3370 50  0000 R CNN
@@ -518,7 +507,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4900 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW20
+L halfboard-rescue:SWITCH-sw_withled SW20
 U 1 1 5DCD821E
 P 4600 3300
 F 0 "SW20" H 4600 3555 50  0000 C CNN
@@ -529,7 +518,7 @@ F 3 "" H 4600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D19
+L halfboard-rescue:1N4148W-Diode D19
 U 1 1 5DCD8224
 P 3900 3450
 F 0 "D19" V 3946 3370 50  0000 R CNN
@@ -540,7 +529,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 3900 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW19
+L halfboard-rescue:SWITCH-sw_withled SW19
 U 1 1 5DCD822A
 P 3600 3300
 F 0 "SW19" H 3600 3555 50  0000 C CNN
@@ -551,7 +540,7 @@ F 3 "" H 3600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sw_withled:SWITCH SW23
+L halfboard-rescue:SWITCH-sw_withled SW23
 U 1 1 5DCD8230
 P 7600 3300
 F 0 "SW23" H 7600 3555 50  0000 C CNN
@@ -562,7 +551,7 @@ F 3 "" H 7600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D23
+L halfboard-rescue:1N4148W-Diode D23
 U 1 1 5DCD8236
 P 7900 3450
 F 0 "D23" V 7946 3370 50  0000 R CNN
@@ -573,7 +562,7 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 7900 3450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L sw_withled:SWITCH SW24
+L halfboard-rescue:SWITCH-sw_withled SW24
 U 1 1 5DCD823C
 P 8600 3300
 F 0 "SW24" H 8600 3555 50  0000 C CNN
@@ -584,7 +573,7 @@ F 3 "" H 8600 3300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D24
+L halfboard-rescue:1N4148W-Diode D24
 U 1 1 5DCD8242
 P 8900 3450
 F 0 "D24" V 8946 3370 50  0000 R CNN
@@ -663,7 +652,7 @@ Wire Wire Line
 	7900 3600 8900 3600
 Connection ~ 7900 3600
 $Comp
-L power:GND #PWR08
+L halfboard-rescue:GND-power #PWR08
 U 1 1 5DD425AD
 P 2100 3350
 F 0 "#PWR08" H 2100 3100 50  0001 C CNN
@@ -678,20 +667,18 @@ Text GLabel 1100 2050 0    50   Input ~ 0
 row2
 Text GLabel 1100 2150 0    50   Input ~ 0
 row3
-Text GLabel 1100 2250 0    50   Input ~ 0
-col0
-Text GLabel 1100 2450 0    50   Input ~ 0
-col1
-Text GLabel 1100 2550 0    50   Input ~ 0
-col2
+Text GLabel 2500 2250 2    50   Input ~ 0
+col4
+Text GLabel 2500 2350 2    50   Input ~ 0
+col5
 Text GLabel 2500 1650 2    50   Input ~ 0
 reset
 Text GLabel 2500 1850 2    50   Input ~ 0
-col3
+col0
 Text GLabel 2500 1950 2    50   Input ~ 0
-col4
+col1
 Text GLabel 2500 2050 2    50   Input ~ 0
-col5
+col2
 Text GLabel 3200 1650 0    50   Input ~ 0
 row0
 Text GLabel 3200 2300 0    50   Input ~ 0
@@ -715,7 +702,7 @@ col5
 Text GLabel 1500 3350 0    50   Input ~ 0
 reset
 $Comp
-L Switch:SW_SPST RESET1
+L halfboard-rescue:SW_SPST-Switch RESET1
 U 1 1 5DD41146
 P 1800 3350
 F 0 "RESET1" H 1800 3605 50  0000 C CNN
@@ -898,7 +885,7 @@ row1
 Text GLabel 1100 1850 0    50   Input ~ 0
 row0
 $Comp
-L Switch:SW_SPST PWR_SW1
+L halfboard-rescue:SW_SPST-Switch PWR_SW1
 U 1 1 602C7F72
 P 1500 3950
 F 0 "PWR_SW1" H 1500 4185 50  0000 C CNN
@@ -909,7 +896,7 @@ F 3 "~" H 1500 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L halfboard-rescue:GND-power #PWR0101
 U 1 1 600F2961
 P 1250 3950
 F 0 "#PWR0101" H 1250 3700 50  0001 C CNN
@@ -922,7 +909,7 @@ $EndComp
 Wire Wire Line
 	1300 3950 1250 3950
 $Comp
-L Device:Battery BAT1
+L halfboard-rescue:Battery-Device BAT1
 U 1 1 60102ED1
 P 2100 3950
 F 0 "BAT1" V 1855 3950 50  0000 C CNN
@@ -941,7 +928,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3950 2300 3950
 $Comp
-L power:GND #PWR?
+L halfboard-rescue:GND-power #PWR?
 U 1 1 60254313
 P 2100 3000
 F 0 "#PWR?" H 2100 2750 50  0001 C CNN
@@ -954,7 +941,7 @@ $EndComp
 Text GLabel 1500 3000 0    50   Input ~ 0
 reset
 $Comp
-L Switch:SW_SPST RESET2
+L halfboard-rescue:SW_SPST-Switch RESET2
 U 1 1 6025431A
 P 1800 3000
 F 0 "RESET2" H 1800 3255 50  0000 C CNN
@@ -969,7 +956,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3000 2100 3000
 $Comp
-L Switch:SW_SPST PWR_SW2
+L halfboard-rescue:SW_SPST-Switch PWR_SW2
 U 1 1 6025A6E4
 P 1500 4350
 F 0 "PWR_SW2" H 1500 4585 50  0000 C CNN
@@ -980,7 +967,7 @@ F 3 "~" H 1500 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L halfboard-rescue:GND-power #PWR?
 U 1 1 6025A6EA
 P 1250 4350
 F 0 "#PWR?" H 1250 4100 50  0001 C CNN
@@ -997,4 +984,12 @@ Wire Wire Line
 Connection ~ 1900 3950
 Wire Wire Line
 	1900 3950 1900 4350
+NoConn ~ 2500 1750
+Text GLabel 2500 2150 2    50   Input ~ 0
+col3
+NoConn ~ 2500 2450
+NoConn ~ 2500 2550
+NoConn ~ 1100 2250
+NoConn ~ 1100 2450
+NoConn ~ 1100 2550
 $EndSCHEMATC
