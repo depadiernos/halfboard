@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# halfboard-rescue_1N4148W-Diode
+# halfboard_1N4148W-Diode
 #
-DEF halfboard-rescue_1N4148W-Diode D 0 40 N N 1 F N
+DEF halfboard_1N4148W-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "halfboard-rescue_1N4148W-Diode" 0 -100 50 H V C CNN
+F1 "halfboard_1N4148W-Diode" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -20,11 +20,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# halfboard-rescue_Battery-Device
+# halfboard_Battery-Device
 #
-DEF halfboard-rescue_Battery-Device BT 0 0 N N 1 F N
+DEF halfboard_Battery-Device BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "halfboard-rescue_Battery-Device" 100 0 50 H V L CNN
+F1 "halfboard_Battery-Device" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -45,11 +45,11 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# halfboard-rescue_GND-power
+# halfboard_GND-power
 #
-DEF halfboard-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF halfboard_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "halfboard-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "halfboard_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -58,11 +58,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# halfboard-rescue_ProMicro-keebio
+# halfboard_ProMicro-keebio
 #
-DEF halfboard-rescue_ProMicro-keebio U 0 40 Y Y 1 F N
+DEF halfboard_ProMicro-keebio U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "halfboard-rescue_ProMicro-keebio" 0 -750 60 H V C CNN
+F1 "halfboard_ProMicro-keebio" 0 -750 60 H V C CNN
 F2 "" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW
@@ -94,11 +94,11 @@ X 6/PD7 9 -700 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# halfboard-rescue_SWITCH-sw_withled
+# halfboard_SWITCH-sw_withled
 #
-DEF halfboard-rescue_SWITCH-sw_withled SW 0 40 Y Y 1 F N
+DEF halfboard_SWITCH-sw_withled SW 0 40 Y Y 1 F N
 F0 "SW" 0 -50 60 H V C CNN
-F1 "halfboard-rescue_SWITCH-sw_withled" 0 125 60 H V C CNN
+F1 "halfboard_SWITCH-sw_withled" 0 125 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -108,11 +108,11 @@ X ~ 2 200 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# halfboard-rescue_SW_SPST-Switch
+# halfboard_SW_SPST-Switch
 #
-DEF halfboard-rescue_SW_SPST-Switch SW 0 0 Y N 1 F N
+DEF halfboard_SW_SPST-Switch SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
-F1 "halfboard-rescue_SW_SPST-Switch" 0 -100 50 H V C CNN
+F1 "halfboard_SW_SPST-Switch" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
